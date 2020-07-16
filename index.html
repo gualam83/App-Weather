@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>App Clima</title>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="images/logo.png" alt="logo">
+    </div>
+    <section class="containerPage">
+        <div class="banner">
+            <img src="images/banner.jpg" alt="banner">
+            <div class="bogota">
+                <img id="icon-bogota" src="" alt="icono Bogota">
+                <p id="tempBogota"></p>
+            </div>
+        </div>
+
+        <div class="buttonsWeather">
+            <div class="buttonDark">
+                <img src="images/buttonDark.png" alt="fondo nube">
+            </div>
+            <div class="buttonLight">
+                <img src="images/buttonLight.png" alt="fondo temperatura">
+            </div>
+
+        </div>
+        <div class="information">
+            <div class="rowPage threeDays">
+                <h2>3 Days <span>Forecast</span> </h2>
+                <div class="box">
+                    <div class="day">
+                        <img src="images/sun.png" alt="imagenProvisional">
+                        <p id="nextDayOne"> Friday</br> <span id="tempDayOne">Rain</span></p>
+                    </div>
+                    <p class="degree" id="degreeOne">32° / 23°</p>
+                </div>
+                <div class="box">
+                    <div class="day">
+                        <img src="images/sun.png" alt="imagenProvisional">
+                        <p id="nextDayTwo">Friday </br> <span id="tempDayTwo">Rain</span></p>
+                    </div>
+                    <p class="degree" id="degreeTwo">32° / 23°</p>
+                </div>
+                <div class="box">
+                    <div class="day">
+                        <img src="images/sun.png" alt="imagenProvisional">
+                        <p id="nextDayThree">Friday </br> <span id="tempDayThree">Rain</span></p>
+                    </div>
+                    <p class="degree" id="degreeThree">32° / 23°</p>
+                </div>
+            </div>
+            <div class="rowPage place">
+                <h2>Place to <span>visit</span> </h2>
+                <div class="singopore"></div>
+                <img src="images/singopore.jpg" alt="">
+            </div>
+            <div class="rowPage topReviews">
+                <div class="titleReviews">
+                    <p>+ top Reviews</p>
+                    <img src="images/Googlemas.png" alt="">
+                </div>
+                <div class="reviews">
+                    <img src="images/museum.jpg" alt="">
+                    <img class="fountain" src="images/fountain.jpg" alt="">
+                </div>
+            </div>
+            <div class="rowPage addLocations">
+                <div class="Francia">
+                    <div class="boxCity">
+                        <div class="topCity">
+                            <div class="imageCity">
+                                <img id="icon-paris" src="" alt="">
+                            </div>
+                            <div class="degreeCity" id="tempParis"></div>
+                            <hr>
+                            <div class="city">París</br>Francia</div>
+                        </div>
+                        <div class="cardinals">
+                            <p>Humidity <span id="humidityParis"></span></p>
+                            <p id="carninalsLyon">West</p>
+                            <p id="windParis"></p>
+                        </div>
+                    </div>
+                    <div class="boxCity">
+                        <div class="topCity">
+                            <div class="imageCity">
+                                <img id="icon-lyon" src="" alt="">
+                            </div>
+                            <div class="degreeCity" id="tempLyon"></div>
+                            <hr>
+                            <div class="city">Lyon</br>Francia</div>
+                        </div>
+                        <div class="cardinals">
+                            <p>Humidity <span id="humidityLyon"></span></p>
+                            <p id="carninalsLyon">Northwest</p>
+                            <p id="windLyon"></p>
+                        </div>
+                    </div>
+                </div>
+                <img class="imageLocation" src="images/addLocations.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
